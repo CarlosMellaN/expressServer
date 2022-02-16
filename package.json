@@ -1,0 +1,21 @@
+{
+  "name": "expressserver",
+  "version": "1.0.0",
+  "description": "monitor intregracion favatex",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server"
+  },
+  "author": "CMella",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "cors": "^2.8.5",
+    "os": "^0.1.2",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^10.0.0",
+    "node-fetch": "^3.0.0",
+    "nodemailer": "^6.7.0"
+  }
+}
