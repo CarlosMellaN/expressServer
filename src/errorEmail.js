@@ -13,7 +13,7 @@ export default function errorEmail(messageErrorEmail) {
     // Definimos el email
     var mailOptions = {
         from: process.env.USER_MAIL,
-        to: 'carlosmellaneira@gmail.com',
+        to: 'aaburto@favatex.com,victorino.rodriguez@itsecurity.cl,lsantana@favatex.com,jmercado@favatex.com',
         subject: 'Problemas con la integracion',
         text: 'La integración se cayó, '+ messageErrorEmail + '\n Servidor: ' + os.hostname,
         /*attachments: [{

@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/7cb63f89-39c1-4421-9ed0-8467a82a0e74/resourceGroups/testFavatex/providers/Microsoft.Web/sites/monitorFavatex",
+    "appService.deploySubpath": "."
+}

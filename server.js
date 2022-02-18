@@ -62,7 +62,7 @@ const getResponseFavatex = async () =>{
             }); 
             console.log(resp)
             messageErrorEmail = JSON.stringify(resp)
-            //errorEmail(messageErrorEmail);
+            errorEmail(messageErrorEmail);
         }
         resp.status='false'
     })
@@ -79,7 +79,7 @@ const getResponseFavatex = async () =>{
         }); 
         //console.log(error)
         messageErrorEmail = error
-        //errorEmail(messageErrorEmail);
+        errorEmail(messageErrorEmail);
     })
 }
 function funcInterval(){
@@ -97,7 +97,7 @@ function functionWorkingMail(){
     var d = new Date();
     var minutes = d.getMinutes();
     var hours = d.getHours();
-    //workingEmail()
+    workingEmail()
     //console.log('hora de email funcionando '+hours.toString() +':'+minutes.toString()) 
 }
 setInterval(functionWorkingMail, 60000 * 1440);//one minute is 60000.

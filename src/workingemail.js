@@ -13,7 +13,7 @@ export default function workingEmail() {
     // Definimos el email
     var mailOptions = {
         from: process.env.USER_MAIL,
-        to: 'carlosmellaneira@gmail.com',
+        to: 'aaburto@favatex.com,victorino.rodriguez@itsecurity.cl,lsantana@favatex.com,jmercado@favatex.com',
         subject: 'Integracion funcionando',
         text: 'Integracion funcionando correctamente,  servidor: ' + os.hostname
     };
